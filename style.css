@@ -1,0 +1,61 @@
+body {
+    margin-top: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1,
+h2,
+form {
+  text-align: center;
+}
+
+h1 {
+    font-size: 45px;
+}
+
+h2 {
+    font-size: 30px;
+    color: white;
+}
+
+button {
+  display: block;
+  margin: 20px auto;
+  
+}
+
+
+
+h1 {
+    color: green;
+}
+
+#red {
+    color: red;
+}
+
+#green {
+    color: green;
+}
+
+#check {
+    background-color: green;
+    color: white;
+}
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 800px) {
+    body {
+        margin-top: 240px;
+        background-size: contain;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+}
+
+
+
