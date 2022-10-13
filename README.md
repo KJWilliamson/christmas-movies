@@ -1,6 +1,6 @@
 ## What's Your Favorite Christmas Movie web app built with HTML, CSS, and Javascript.
 
-### User enters favorite movie and a gif pulls up if the movie is included, if not it shows a gif of a fireplace.
+* User enters favorite movie and a gif pulls up if the movie is included, if not it shows a gif of a fireplace.
 
 
 
