@@ -1,3 +1,14 @@
+// user can hit enter or click button
+document.querySelector("#check").addEventListener("click", check);
+let christmasMovie = document.getElementById("christmas");
+christmasMovie.addEventListener("keydown", function (e) {
+  if (e.keyCode == 13 || e.key == 13) {
+    e.preventDefault();
+    document.getElementById("check").click();
+  }
+});
+
+
 document.querySelector("#check").addEventListener("click", check);
 
 const christmas = "The Nightmare Before Christmas";
