@@ -4,6 +4,20 @@ body {
     background-size: cover;
 }
 
+::-webkit-input-placeholder {
+    font-weight: bolder;
+    color: red;
+  }
+  
+  label {
+    font-weight: bolder;
+  }
+  
+  input {
+    font-weight: bolder;
+  }
+
+  
 h1,
 h2,
 form {
